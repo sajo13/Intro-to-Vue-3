@@ -4,7 +4,8 @@ const app = Vue.createApp({
         return {
             cart: [],
             premium: true,
-            details: ['Color: Red', 'Size: M', 'Material: Cotton']
+            details: ['Color: Red', 'Size: M', 'Material: Cotton'],
+            reviews: []
         }
     },
     methods: {
